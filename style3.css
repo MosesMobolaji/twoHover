@@ -1,0 +1,42 @@
+body{
+	margin:30px;
+	background-color: #E9E9E9;
+}
+
+img{
+	width:100%;
+	/*border-bottom-right-radius:100%;*/
+
+}
+
+div.call{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div.cango{
+	width:150px;
+	background-color:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+	0 6px 20px 0 rgba(0, 0, 0, 0.19) /*#888888*/;
+	transition:all 1s;
+	margin: 40px;
+}
+
+.lan1{
+	transform: rotate(-3deg);
+}
+
+.cango:hover{
+	transform: scale(1.1);
+}
+
+.lan{
+	transform: rotate(4deg);
+}
+
+div.lang{
+	padding: 10px 20px;
+	text-align:center
+}
